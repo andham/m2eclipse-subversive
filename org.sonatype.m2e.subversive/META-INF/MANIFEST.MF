@@ -5,10 +5,10 @@ Bundle-SymbolicName: org.sonatype.m2e.subversive;singleton:=true
 Bundle-Version: 0.13.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Require-Bundle: org.eclipse.m2e.core;bundle-version="[1.0.0,1.1.0)",
- org.eclipse.m2e.scm;bundle-version="[1.0.0,1.1.0)",
- org.eclipse.core.runtime;bundle-version="3.5.0",
- org.eclipse.team.svn.core;bundle-version="0.7.8",
- org.eclipse.team.svn.ui;bundle-version="0.7.8";resolution:=optional,
+Require-Bundle:  org.eclipse.core.runtime,
+ org.eclipse.m2e.core;bundle-version="[1.0.0,1.3.0)",
+ org.eclipse.m2e.scm;bundle-version="[1.0.0,1.3.0)",
+ org.eclipse.team.svn.core,
+ org.eclipse.team.svn.ui;resolution:=optional,
  org.slf4j.api;bundle-version="1.5.11"
 Export-Package: org.sonatype.m2e.subversive.internal;x-internal:=true

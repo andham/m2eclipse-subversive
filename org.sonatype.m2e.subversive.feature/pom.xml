@@ -46,7 +46,6 @@
         <configuration>
           <metadataRepositoryName>Maven SCM Handler for Subversive</metadataRepositoryName>
           <artifactRepositoryName>Maven SCM Handler for Subversive</artifactRepositoryName>
-          <compressRepository>false</compressRepository>
         </configuration>
       </plugin>
       <plugin>
@@ -88,7 +87,7 @@
                 </goals>
                 <configuration>
                   <file>${project.build.directory}/${project.artifactId}-${project.version}-site.zip</file>
-                  <serverId>forge-releases</serverId>
+                  <serverId>m2e.extras</serverId>
                   <repositoryUrl>${m2e.site-compressed}</repositoryUrl>
                   <repositoryPath>m2eclipse-subversive/${unqualifiedVersion}/N/${unqualifiedVersion}.${buildQualifier}</repositoryPath>
                 </configuration>
