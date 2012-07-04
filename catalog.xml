@@ -1,0 +1,22 @@
+<catalog>
+  <catalogItems>    
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
+      <description>Maven SCM Handler for Subversive</description>
+      <groupId>extras</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive</id>
+      <kind>extras</kind>
+      <license>EPL</license>
+      <name>m2e-subversive</name>
+      <provider>Sonatype, Inc.</provider>
+      <p2>
+        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-subversive/0.13.0/N/0.13.0.201106211115</repositoryUrl>
+        <iuId>org.sonatype.m2e.subversive.feature.feature.group</iuId>
+      </p2>
+      <overview>
+        <summary>Maven SCM Handler for Subversive</summary>
+        <url>https://github.com/sonatype/m2eclipse-subversive</url>
+      </overview>
+    </catalogItem>
+  </catalogItems>
+</catalog>
