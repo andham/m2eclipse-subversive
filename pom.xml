@@ -24,7 +24,7 @@
 
   <properties>
     <repositoryPathId>m2eclipse-subversive</repositoryPathId>
-    <p2MetadataName>Maven SCM Handler for Subversie</p2MetadataName>
+    <p2MetadataName>Maven SCM Handler for Subversive</p2MetadataName>
   </properties>  
   
   <repositories>
